@@ -1,0 +1,133 @@
+/* =======================
+   Element selector example
+   ======================= */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #ffffff; /* White background */
+    color: #222222;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* =======================
+   Class selector example
+   ======================= */
+.highlight-text {
+    color: #ff4500; /* Orange highlight */
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* =======================
+   ID selector example
+   ======================= */
+#movie-poster {
+    display: block;
+    margin: 20px auto;
+    max-width: 400px;
+    height: auto;
+    border: 4px solid #86929e; /* Blue border for emphasis */
+    border-radius: 8px;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #1e90ff, #ff4500);
+    color: white;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+header h3 {
+    font-weight: normal;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+/* Section styling */
+section {
+    padding: 40px 80px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9; /* Light background for sections */
+    border-radius: 8px;
+}
+
+/* Section headings */
+h2 {
+    color: #1e90ff;
+    border-left: 6px solid #ff4500;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+/* Lists */
+ul {
+    padding-left: 25px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 2px solid #0a122a; /* Blue borders */
+}
+
+th {
+    background-color: #ff4500; /* Orange header */
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 8px;
+}
+
+/* Hover effect for table rows */
+tr:hover {
+    background-color: #ffe5d9; /* Light orange on hover */
+}
+
+/* Cast names highlight */
+h4 {
+    color: #ff4500;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #1e90ff;
+    color: white;
+    font-size: 14px;
+}
+
+/* Premiere box */
+.premiere-box {
+    background-color: #f4f8ff;
+    border-left: 6px solid #1e90ff;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+/* Hover effect for list items */
+ul li:hover {
+    color: #d62828; /* Red hover */
+    cursor: pointer;
+    transition: 0.3s;
+}
